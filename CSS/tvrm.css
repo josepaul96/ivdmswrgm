@@ -1,0 +1,90 @@
+body {
+    font-family: "Montserrat";
+    text-align: center;
+    background-color: #3a3535;
+  }
+h1,h2,h3,h4,h5,h6{
+    font-family: "Montserrat-700"
+  }
+  
+/* headings */
+
+  
+.container-fluid {
+    padding: 7% 15%;
+  } 
+ 
+
+ /* Title  */
+ .navbar {
+    padding: 0 0 4.5rem;
+  }
+  
+  .navbar-brand {
+    font-size: 2rem;
+    font-family: "Ubuntu";
+    font-weight: bold;
+  }
+  
+  #title {
+    text-align: left;
+    background-color: #ff7315;
+  }
+  
+  #title .container-fluid{
+    padding: 3% 15% 3%;
+  }
+  
+  .titleheading{
+    padding: 10% 0 3% 4%;
+    margin: 0 auto;
+    font-size: 2.5rem;
+    line-height: 1.5;
+    color: #fff;
+  }
+  
+  .title-text{
+      color: #fff;
+      padding: 5% 0 5% 4%;
+      margin: 0 auto;
+  }
+
+  .titleimage
+  {
+        width: 90%;
+      padding: 0% 10% 0% 15%;
+      margin: 0 auto;
+  }
+  
+/* sweetspots */
+
+#sweetspots{
+    color: #ff7315;
+    margin-top: 7%;
+}
+.sweetspots-image {
+    width: 80%;
+    border-style: dashed;
+    border-width: 10px;
+    border-color: #ff7315;
+  }
+
+  .big-heading {
+    
+    font-size: 4rem;
+    line-height: 1.5;
+    color:#ff7315;
+    
+  }
+
+/* footer */
+#footer{
+    color:#ff7315;
+}
+#footer .container-fluid{
+    padding: 2% 15% 0;
+  }
+  
+  .footericon {
+    margin: 5px;
+  }

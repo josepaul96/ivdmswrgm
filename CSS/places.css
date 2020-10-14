@@ -1,0 +1,31 @@
+body{
+    background-color: #f3c623;
+    font-family: "Montserrat:400";;
+}
+
+#Postcards{
+    padding: 5% 20% 5% 15%;
+}
+
+.postcard{
+    size: 256px 256px;
+}
+
+#title{
+    margin: 0% 5% 0 10%;
+    padding-top: 2%;
+}
+
+
+/* footer */
+#footer{
+    color:#fff;
+    text-align: center;
+}
+#footer .container-fluid{
+    padding: 2% 15% 0;
+  }
+  
+  .footericon {
+    margin: 5px;
+  }

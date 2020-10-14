@@ -1,0 +1,15 @@
+body{
+   
+    background-image: url(https://data.whicdn.com/images/324008462/original.gif);
+    
+    background-position-x: 50%;
+    background-position-y: -50%;
+    background-color: black;
+}
+
+h1{
+    color:#dadada;
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}

@@ -1,0 +1,146 @@
+body {
+    font-family: "Montserrat";
+    text-align: center;
+  
+  }
+h1,h2,h3,h4,h5,h6{
+    font-family: "Montserrat-700"
+  }
+  
+/* headings */
+.big-heading {
+    font-family: "Montserrat-900";
+    line-height: 1.5;
+    font-size: 3.5rem;
+  }
+  
+.container-fluid {
+    padding: 7% 15%;
+  } 
+ 
+
+ /* Title  */
+ .navbar {
+    padding: 0 0 4.5rem;
+  }
+  
+  .navbar-brand {
+    font-size: 2rem;
+    font-family: "Ubuntu";
+    font-weight: bold;
+  }
+  
+  #title {
+    text-align: left;
+    background-color: #428b46;
+  }
+  
+  #title .container-fluid{
+    padding: 3% 15% 7%;
+  }
+  
+  .titleheading{
+    padding: 7% 0 10% 4%;
+    margin: 0 auto;
+    font-size: 3rem;
+    line-height: 1.5;
+    color: #fff;
+  }
+  
+  .titleimage
+  {
+      width: 80%;
+      padding: 7% 15%;
+      margin: 0 auto;
+  }
+  
+  .dbutton {
+    padding: 7% 15%;
+    margin: 15% 3% 5% 5%;
+  }
+
+  /* Explore */
+.explorebox{
+    margin-top: 2.8rem;
+}
+  .explore-content{
+      padding: 7% 5%;
+      color:#388e3c;
+  }
+.explore-title{
+    color: #535A3B;
+}  
+
+
+/* Testimonials */
+
+#testimonials{
+    background-color:#2b580c;
+    color: #fff;
+}
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin-top: 2.5%;
+  }
+
+.testimonial-text{
+    font-family: "Cutive+Mono";
+    line-height: 3rem;
+}
+/* Packages */
+
+#packages{
+    color: #535A3B;;
+}
+
+.package-heading{
+    padding-bottom: 5%;
+}
+
+/* partnerships */
+
+#partnerships{
+    background-color: #428b46 ;
+    color: #fff;
+    font-weight: bold;
+}
+
+.container-fluid .partners{
+    padding:0 0 7%;
+}
+
+#partnerships .container-fluid{
+    padding: 7% 10%;
+}
+
+.partnerimage{
+    background-color:#f5feff;
+}
+
+/* Call to action */
+#cta{
+    color:#28a745;
+    text-align: left;
+}
+.cta-head{
+    padding-left: 5%;
+}
+
+#cta .dbutton{
+    padding: 7% 15%;
+    margin: 5% 3% 0 5%;
+}
+
+
+/* footer */
+#footer{
+    color:#28a745;
+}
+#footer .container-fluid{
+    padding: 2% 15% 0;
+  }
+  
+  .footericon {
+    margin: 5px;
+  }

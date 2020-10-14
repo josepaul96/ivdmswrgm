@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JOIN US - ivdm swrgm</title>
+  <!-- favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+  <link rel="manifest" href="favicon_io/site.webmanifest">
+  <!-- favicon -->
+
+  <!-- Bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <!-- Bootstrap -->
+
+  <!-- Fonts and Icons -->
+
+  <link href="https://fonts.googleapis.com/css?family=Cutive+Mono|Montserrat:400,900|Ubuntu&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/432e149cf5.js" crossorigin="anonymous"></script>
+  <!-- Fonts and Icons -->
+
+  <!-- CSSLINK -->
+  <link rel="stylesheet" href="CSS/signup.css">
+</head>
+
+<body>
+  <!-- Title -->
+  <section id="title">
+    <div class="container-fluid">
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-light ">
+        <img src="Images/All Pages/kathakali (1).png" width="60" height="60" alt="">
+        <a class="navbar-brand" href="">
+          <h4>ivdm swrgm</h4>
+        </a>
+        <div class="collapse navbar-collapse">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html"><i class="fas fa-home"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="signin.html">
+                <h5>Already a member?</h5>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- Navbar end -->
+      <!-- Title ends -->
+
+      <section id="signupbox">
+        <div class="container-fluid">
+          <div class="row title">
+
+            <div class="col-lg-6">
+              <h1>Hello, there</h1>
+              <h1>We've come so far</h1>
+              <h1>We are a few taps away.</h1>
+
+
+            </div>
+
+
+
+          </div>
+          <div class="row form">
+
+            <div class="col-lg-6">
+              <form action="landpage.html" onsubmit="return check()">
+                <div class="form-row">
+                  <div class="form-group col-md-12">
+                    <label for="inputEmail4">Email/Phone Number</label>
+                    <input type="text" class="form-control" id="emailorphone">
+                    <p id="error1"></p>
+                  </div>
+                  <div class="form-group col-md-12">
+                    <label for="inputPassword4">Choose Password</label>
+                    <input onkeyup="passwordmeter()" type="password" class="form-control" id="password">
+                    <p id="error2"></p>
+                  </div>
+                  <!-- <div class="form-group col-md-6">
+                    <label for="inputPassword4">Confirm Password</label>
+                    <input type="password" class="form-control" id="password1">
+                  </div>
+                </div> -->
+                <div class="form-group col-md-12">
+                  <label for="inputAddress">Your Name</label>
+                  <input type="text" class="form-control" id="inputAddress" placeholder="Shiv Shankara">
+                </div>
+
+
+                <div class="form-group col-md-12">
+                  <label for="inputState">Where are you from?</label>
+                  <select id="inputState" class="form-control">
+                    <option selected>Choose...</option>
+                    <option>Kerala</option>
+                    <option>Rest of India</option>
+                    <option>Outside India</option>
+                  </select>
+                </div>
+
+                <div class="form-group col-md-12">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                    <label class="form-check-label" for="gridCheck">
+                      Recieve mails about our latest artistic adventures
+                    </label>
+                  </div>
+                </div>
+
+                
+                  <div class="form-group col-lg-6 ">
+                  <button type="submit" class="btn btn-lg  btn-outline-light signupbutton"><i class="fab fa-facebook-f"></i></button>
+                </div>
+                <div class="form-group col-lg-6 ">
+                  <button type="submit" class="btn btn-lg btn-outline-light signupbutton"><i class="fab fa-google"></i> </button>
+                </div>
+              
+                <button type="submit" class="btn btn-lg btn-block btn-outline-light col-md-12">Let's go</button>
+              </form>
+
+
+
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer id="footer">
+        <div class="container-fluid">
+          <i class="footericon fab fa-twitter"></i>
+          <i class="footericon fab fa-instagram"></i>
+          <i class="footericon fab fa-facebook-f"></i>
+          <p>© Copyright 2020 ivdm swrgm</p>
+        </div>
+      </footer>
+
+      <script src="validate.js"></script>
+    
+</body>
+
+</html>

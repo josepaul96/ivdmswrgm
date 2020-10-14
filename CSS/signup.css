@@ -1,0 +1,40 @@
+body{
+    background-color: #ed5107;
+    background-image: url(welcomesignup.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+
+.container-fluid{
+    padding-bottom: 20px;
+
+}
+
+.title{
+    padding: 1% 15% 0% 10%;
+    color: white;
+    font-family: "Montserrat:400";
+}
+
+.form{
+    padding: 2% 15% 0% 10%;
+    color: white;
+    font-size: larger;
+    font-family: "Montserrat:400";
+}
+
+.signupbutton{
+   padding: 7% 45%;
+}
+
+#footer{
+    color:#fff;
+    text-align: center;
+}
+#footer .container-fluid{
+    padding: 7% 20% 0%;
+  }
+  
+  .footericon {
+    margin: 5px;
+  }

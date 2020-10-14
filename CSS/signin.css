@@ -1,0 +1,32 @@
+body{
+    background-color: #000000 ;
+    background-image: url(signin.png);
+    background-repeat: no-repeat;
+     background-position-x: 180%;
+    background-position-y: 10%;
+}
+
+
+.card{
+
+    margin: 5% 10%;
+    color: mintcream;
+    background-color: #000;
+    text-align: center;
+}
+
+#title{
+    font-family: "Montserrat:400";
+}
+
+#footer{
+    color:#fff;
+    text-align: center;
+}
+#footer .container-fluid{
+    padding: 15% 0 0 0;
+  }
+  
+  .footericon {
+    margin: 5px;
+  }
