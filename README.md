@@ -1,6 +1,6 @@
 # ivdmswrgm
 
-## General info
+## General information
 
 A web app design for a Kerala based tourism promoter website. Functionality is limited to client-side validation of entered details for sign-up and sign-in.
 	
